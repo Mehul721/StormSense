@@ -11,6 +11,8 @@
 		754299152C68EE9900C4D579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754299142C68EE9900C4D579 /* ContentView.swift */; };
 		754299172C68EE9A00C4D579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754299162C68EE9A00C4D579 /* Assets.xcassets */; };
 		7542991A2C68EE9A00C4D579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754299192C68EE9A00C4D579 /* Preview Assets.xcassets */; };
+		7542992A2C68F21A00C4D579 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754299292C68F21A00C4D579 /* Extensions.swift */; };
+		7542992C2C68F33200C4D579 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542992B2C68F33200C4D579 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		754299142C68EE9900C4D579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		754299162C68EE9A00C4D579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		754299192C68EE9A00C4D579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		754299292C68F21A00C4D579 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../../../Downloads/SwiftUI Weather/Resources/Extensions.swift"; sourceTree = "<group>"; };
+		7542992B2C68F33200C4D579 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				754299122C68EE9900C4D579 /* StormSenseApp.swift */,
-				754299142C68EE9900C4D579 /* ContentView.swift */,
+				754299202C68F01F00C4D579 /* Views */,
+				754299212C68F02700C4D579 /* Models */,
+				754299222C68F02D00C4D579 /* Utils */,
 				754299162C68EE9A00C4D579 /* Assets.xcassets */,
 				754299182C68EE9A00C4D579 /* Preview Content */,
 			);
@@ -65,6 +71,62 @@
 				754299192C68EE9A00C4D579 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		754299202C68F01F00C4D579 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				754299262C68F06F00C4D579 /* Components */,
+				754299252C68F06900C4D579 /* Details */,
+				754299242C68F06100C4D579 /* Navigation */,
+				754299232C68F05A00C4D579 /* Main */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		754299212C68F02700C4D579 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		754299222C68F02D00C4D579 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				754299292C68F21A00C4D579 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		754299232C68F05A00C4D579 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				754299142C68EE9900C4D579 /* ContentView.swift */,
+				7542992B2C68F33200C4D579 /* HomeView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		754299242C68F06100C4D579 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		754299252C68F06900C4D579 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		754299262C68F06F00C4D579 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				754299152C68EE9900C4D579 /* ContentView.swift in Sources */,
+				7542992C2C68F33200C4D579 /* HomeView.swift in Sources */,
 				754299132C68EE9900C4D579 /* StormSenseApp.swift in Sources */,
+				7542992A2C68F21A00C4D579 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
