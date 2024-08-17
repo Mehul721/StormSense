@@ -11,6 +11,13 @@ struct TabBar: View {
     var action: () -> Void
     var body: some View {
         ZStack{
+            Arc()
+                .fill(Color.tabBarBackground)
+                .frame(height:88)
+                .overlay{
+                    Arc()
+                        .stroke(Color.tabBarBorder,lineWidth: 0.5)
+                }
             HStack{
                 Button{
                     action()
