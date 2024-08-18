@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750B89DF2C7270D5005B8304 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 750B89DE2C7270D5005B8304 /* BottomSheet */; };
+		750B89E12C727295005B8304 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B89E02C727295005B8304 /* ForecastView.swift */; };
 		754299132C68EE9900C4D579 /* StormSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754299122C68EE9900C4D579 /* StormSenseApp.swift */; };
 		754299152C68EE9900C4D579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754299142C68EE9900C4D579 /* ContentView.swift */; };
 		754299172C68EE9A00C4D579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754299162C68EE9A00C4D579 /* Assets.xcassets */; };
@@ -18,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		750B89E02C727295005B8304 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
 		7542990F2C68EE9900C4D579 /* StormSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		754299122C68EE9900C4D579 /* StormSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormSenseApp.swift; sourceTree = "<group>"; };
 		754299142C68EE9900C4D579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750B89DF2C7270D5005B8304 /* BottomSheet in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +128,7 @@
 		754299252C68F06900C4D579 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				750B89E02C727295005B8304 /* ForecastView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -151,6 +156,9 @@
 			dependencies = (
 			);
 			name = StormSense;
+			packageProductDependencies = (
+				750B89DE2C7270D5005B8304 /* BottomSheet */,
+			);
 			productName = StormSense;
 			productReference = 7542990F2C68EE9900C4D579 /* StormSense.app */;
 			productType = "com.apple.product-type.application";
@@ -179,6 +187,9 @@
 				Base,
 			);
 			mainGroup = 754299062C68EE9900C4D579;
+			packageReferences = (
+				750B89DD2C7270D5005B8304 /* XCRemoteSwiftPackageReference "BottomSheet" */,
+			);
 			productRefGroup = 754299102C68EE9900C4D579 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -209,6 +220,7 @@
 				7542992C2C68F33200C4D579 /* HomeView.swift in Sources */,
 				754299132C68EE9900C4D579 /* StormSenseApp.swift in Sources */,
 				7542992A2C68F21A00C4D579 /* Extensions.swift in Sources */,
+				750B89E12C727295005B8304 /* ForecastView.swift in Sources */,
 				754299702C711EB800C4D579 /* TabBar.swift in Sources */,
 				754299722C7122F000C4D579 /* Shapes.swift in Sources */,
 			);
@@ -416,6 +428,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		750B89DD2C7270D5005B8304 /* XCRemoteSwiftPackageReference "BottomSheet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wouter125/BottomSheet";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		750B89DE2C7270D5005B8304 /* BottomSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 750B89DD2C7270D5005B8304 /* XCRemoteSwiftPackageReference "BottomSheet" */;
+			productName = BottomSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 754299072C68EE9900C4D579 /* Project object */;
 }

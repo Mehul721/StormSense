@@ -6,8 +6,16 @@
 //
 
 import SwiftUI
+import BottomSheet
+
+enum BottomSheetPosition: CGFloat,CaseIterable{
+    case top = 0.83 //702/844 from fogma design
+    case middle = 0.385 //325/844 from figma design
+}
 
 struct HomeView: View {
+    
+    @State var bottomsheetposition: BottomSheetPosition = .middle
     var body: some View {
         NavigationView  {
             ZStack{
@@ -36,14 +44,16 @@ struct HomeView: View {
                     Spacer()
                 }
                 .padding(.top,51)
-                   
+                
+                
+                }
                 TabBar(action: {})
             }
             
         }
             
         }
-    }
+    
     private var attributedString:AttributedString{
         var string=AttributedString("19°"+"\n "+"Mostly Clear")
         
