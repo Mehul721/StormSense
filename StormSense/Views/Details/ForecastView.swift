@@ -9,13 +9,14 @@ import SwiftUI
 import BottomSheet
 
 struct ForecastView: View {
+    var bottomSheetTranslationProrated:CGFloat=1
     var body: some View {
         ScrollView {
             
         }
         .backgroundblur(radius: 25,opaque:true)
         .clipShape(RoundedRectangle(cornerRadius: 44))
-        innerShadow(shape: RoundedRectangle(cornerRadius:44), color:Color.bottomSheetBorderMiddle,lineWidth: 1,OffsetX: 0,OffsetY: 1,blur: 0,blendMode: .overlay,opacity: 1)
+        innerShadow(shape: RoundedRectangle(cornerRadius:44), color:Color.bottomSheetBorderMiddle,lineWidth: 1,OffsetX: 0,OffsetY: 1,blur: 0,blendMode: .overlay,opacity: 1-bottomSheetTranslationProrated)
             
                 .overlay{
                     Divider()
