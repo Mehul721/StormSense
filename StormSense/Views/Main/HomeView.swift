@@ -58,7 +58,7 @@ struct HomeView: View {
                     .offset(y: -bottomSheetTranslationProrated * 46)
                     
                     BottomSheetView(position: $bottomSheetPosition) {
-                        Text(bottomSheetTranslationProrated.formatted())
+                       // Text(bottomSheetTranslationProrated.formatted())
                     }
                     TabBar(action: {
                         withAnimation {
