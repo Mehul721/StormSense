@@ -12,15 +12,19 @@ struct SegmentedControl: View {
     var body: some View {
         VStack(spacing:5){
             HStack{
-                Button{selection=0
+                Button{
+                    withAnimation(.easeInOut(duration: 0.5)){
+                        selection=0
+                    }
                 } label: {
                     Text("Hourly Forecast")
                 }
                 .frame(minWidth:0,maxWidth:.infinity)
                 
                 Button{
-                    selection=1
-                  }
+                    withAnimation(.easeInOut(duration: 0.5)){
+                selection=1
+            }}
             label: {
                 Text("Weekly Forecast")
             }
@@ -36,6 +40,16 @@ struct SegmentedControl: View {
                 .blendMode(.overlay)
                 .shadow(color:.black.opacity(0.2),radius: 0,x:0,y:1)
                 .blendMode(.overlay)
+                .overlay{
+                    HStack{
+                        Divider()
+                            .frame(width:UIScreen.main.bounds.width/2,height:3)
+                            .background(Color.underline)
+                            .blendMode(.overlay)
+                    }
+                    .frame(width:.infinity,alignment: selection==0 ?.leading : .trailing)
+                    .offset(y:-1)
+                }
             }
             .padding(.top,25)
         }
