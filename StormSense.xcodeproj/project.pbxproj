@@ -13,6 +13,7 @@
 		750B89E72C73C1E2005B8304 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B89E62C73C1E2005B8304 /* Blur.swift */; };
 		750B89E92C79076A005B8304 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B89E82C79076A005B8304 /* SegmentedControl.swift */; };
 		750B89EB2C7A5D59005B8304 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B89EA2C7A5D59005B8304 /* ForecastModel.swift */; };
+		750B89ED2C7BABFD005B8304 /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B89EC2C7BABFD005B8304 /* ForecastCard.swift */; };
 		754299132C68EE9900C4D579 /* StormSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754299122C68EE9900C4D579 /* StormSenseApp.swift */; };
 		754299152C68EE9900C4D579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754299142C68EE9900C4D579 /* ContentView.swift */; };
 		754299172C68EE9A00C4D579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754299162C68EE9A00C4D579 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		750B89E62C73C1E2005B8304 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		750B89E82C79076A005B8304 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		750B89EA2C7A5D59005B8304 /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		750B89EC2C7BABFD005B8304 /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
 		7542990F2C68EE9900C4D579 /* StormSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		754299122C68EE9900C4D579 /* StormSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormSenseApp.swift; sourceTree = "<group>"; };
 		754299142C68EE9900C4D579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			children = (
 				750B89E62C73C1E2005B8304 /* Blur.swift */,
 				750B89E82C79076A005B8304 /* SegmentedControl.swift */,
+				750B89EC2C7BABFD005B8304 /* ForecastCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				754299152C68EE9900C4D579 /* ContentView.swift in Sources */,
 				750B89E32C727F0F005B8304 /* BottomSheetView.swift in Sources */,
+				750B89ED2C7BABFD005B8304 /* ForecastCard.swift in Sources */,
 				7542992C2C68F33200C4D579 /* HomeView.swift in Sources */,
 				754299132C68EE9900C4D579 /* StormSenseApp.swift in Sources */,
 				7542992A2C68F21A00C4D579 /* Extensions.swift in Sources */,
