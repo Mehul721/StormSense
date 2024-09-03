@@ -9,7 +9,27 @@ import SwiftUI
 
 struct WeatherView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color.background
+                .ignoresSafeArea()
+            
+            ScrollView(showsIndicators:false){
+                VStack{
+                    ForEach(Forecast.cities){
+                        forecast in
+                        WeatherWidget(forecast: forecast)
+                    }
+                }
+            }
+            .safeAreaInset(edge:.top){
+                EmptyView()
+                    .frame(height:110)
+            }
+        }
+        .overlay{
+            NavigationBar()
+        }
+        .navigationBarHidden(true)
     }
 }
 

@@ -14,6 +14,9 @@
 		750B89E92C79076A005B8304 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B89E82C79076A005B8304 /* SegmentedControl.swift */; };
 		750B89EB2C7A5D59005B8304 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B89EA2C7A5D59005B8304 /* ForecastModel.swift */; };
 		750B89ED2C7BABFD005B8304 /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B89EC2C7BABFD005B8304 /* ForecastCard.swift */; };
+		750B8A692C86352D005B8304 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A682C86352D005B8304 /* NavigationBar.swift */; };
+		750B8A6B2C86388C005B8304 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A6A2C86388C005B8304 /* WeatherView.swift */; };
+		750B8A6D2C87832E005B8304 /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B8A6C2C87832D005B8304 /* WeatherWidget.swift */; };
 		754299132C68EE9900C4D579 /* StormSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754299122C68EE9900C4D579 /* StormSenseApp.swift */; };
 		754299152C68EE9900C4D579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754299142C68EE9900C4D579 /* ContentView.swift */; };
 		754299172C68EE9A00C4D579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754299162C68EE9A00C4D579 /* Assets.xcassets */; };
@@ -31,6 +34,9 @@
 		750B89E82C79076A005B8304 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		750B89EA2C7A5D59005B8304 /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
 		750B89EC2C7BABFD005B8304 /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
+		750B8A682C86352D005B8304 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		750B8A6A2C86388C005B8304 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		750B8A6C2C87832D005B8304 /* WeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
 		7542990F2C68EE9900C4D579 /* StormSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StormSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		754299122C68EE9900C4D579 /* StormSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormSenseApp.swift; sourceTree = "<group>"; };
 		754299142C68EE9900C4D579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -133,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				7542996F2C711EB800C4D579 /* TabBar.swift */,
+				750B8A682C86352D005B8304 /* NavigationBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -141,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				750B89E02C727295005B8304 /* ForecastView.swift */,
+				750B8A6A2C86388C005B8304 /* WeatherView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 				750B89E62C73C1E2005B8304 /* Blur.swift */,
 				750B89E82C79076A005B8304 /* SegmentedControl.swift */,
 				750B89EC2C7BABFD005B8304 /* ForecastCard.swift */,
+				750B8A6C2C87832D005B8304 /* WeatherWidget.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -235,6 +244,9 @@
 				750B89E32C727F0F005B8304 /* BottomSheetView.swift in Sources */,
 				750B89ED2C7BABFD005B8304 /* ForecastCard.swift in Sources */,
 				7542992C2C68F33200C4D579 /* HomeView.swift in Sources */,
+				750B8A692C86352D005B8304 /* NavigationBar.swift in Sources */,
+				750B8A6D2C87832E005B8304 /* WeatherWidget.swift in Sources */,
+				750B8A6B2C86388C005B8304 /* WeatherView.swift in Sources */,
 				754299132C68EE9900C4D579 /* StormSenseApp.swift in Sources */,
 				7542992A2C68F21A00C4D579 /* Extensions.swift in Sources */,
 				750B89E12C727295005B8304 /* ForecastView.swift in Sources */,
